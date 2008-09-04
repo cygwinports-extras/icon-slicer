@@ -1,0 +1,64 @@
+icon-slicer
+-------------------------------------------
+icon-slicer is a utility for generating icon themes and libXcursor
+cursor themes.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  gdk-pixbuf2-2.12.11-1
+  glib2-2.16.5-1
+  libpopt0-1.14-1
+
+Build requirements:
+  autoconf2.5-2.61-1
+  automake1.7-1.7.9-3
+  binutils-20080624-2
+  cygport-0.4.0-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical homepage:
+  http://freedesktop.org/software/icon-slicer/
+
+Canonical download:
+  http://freedesktop.org/software/icon-slicer/releases/
+
+-------------------------------------------
+
+Build instructions:
+  unpack icon-slicer-0.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./icon-slicer-0.3-X.cygport all
+
+This will create:
+  /usr/src/icon-slicer-0.3-X-src.tar.bz2
+  /usr/src/icon-slicer-0.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/icon-slicer.exe
+  /usr/share/doc/icon-slicer-0.3/AUTHORS
+  /usr/share/doc/icon-slicer-0.3/ChangeLog
+  /usr/share/doc/icon-slicer-0.3/COPYING
+  /usr/share/doc/icon-slicer-0.3/INSTALL
+  /usr/share/doc/icon-slicer-0.3/NEWS
+  /usr/share/doc/icon-slicer-0.3/README
+  /usr/share/doc/icon-slicer-0.3/TODO
+
+------------------
+
+Port Notes:
+
+----- version 0.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
