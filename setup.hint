@@ -1,5 +1,0 @@
-category: Graphics Devel
-requires: glib2 gdk-pixbuf2 libpopt0
-sdesc: "Generates icon themes and libXcursor cursor themes"
-ldesc: "icon-slicer is a utility for generating icon themes and libXcursor
-cursor themes."
