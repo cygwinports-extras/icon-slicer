@@ -1,6 +1,9 @@
-CATEGORY="X11"
+NAME="icon-slicer"
+VERSION=0.3
+RELEASE=2
+CATEGORY="Devel"
 SUMMARY="Icon and cursor theme generator"
 DESCRIPTION="icon-slicer is a utility for generating icon themes and libXcursor
 cursor themes."
 HOMEPAGE="http://www.freedesktop.org/wiki/Software/icon-slicer"
-SRC_URI="http://freedesktop.org/software/icon-slicer/releases/${P}.tar.gz"
+SRC_URI="http://freedesktop.org/software/icon-slicer/releases/${NAME}-${VERSION}.tar.gz"
